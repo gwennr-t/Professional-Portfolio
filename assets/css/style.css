@@ -1,6 +1,7 @@
 * {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
 /* hero section styling */
 #hero-image {
     background-image: url('https://github.com/gwennr-t/Professional-Portfolio/assets/150493048/c9030452-ca92-433c-80e2-9c97091bfd27') ;
@@ -15,41 +16,61 @@
     background-color: #084432;
     color: #ffffff;
 }
+/* end of hero section syling */
 
 /* all section titles styling */
 .section-title {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
     width: 40%;
     color: #084432;
+    border: solid 4px #ff0000;
 }
 
-/* about me text styling */
-.about-me-text {
+/* about me section styling */
+#about-me {
     display: flex;
-    flex-direction: column;
-    color: black;
-    width: 60%;
-    
+    margin: 10px;
 }
-/* end of about me text styling */
+
+.about-me-image {
+    margin: 10px;
+    width: 20%;
+    border: solid 4px #ff0000;
+}
+
+.about-me-text {
+    margin: 10px;
+    width: 40%;
+    color: black;
+    border: solid 4px #ff0000;
+}
+/* end of about me section styling */
 
 /* work cards styling */
-.flex-container {
+#work {
     display: flex;
-    justify-content: right;
-    flex-direction: column;
-    background-color: #13795b;
+    margin: 10px;
     color: #ffffff;
-    width: 50%;
+}
 
+.flex-container {
+    flex-direction: column;
+    background-image: url('https://github.com/gwennr-t/Professional-Portfolio/assets/150493048/b58d6e95-0c51-42e2-b9e9-feaf07ac07c0');
+    background-position: center;
+    margin: 10px;
+    width: 20%;
+    border: solid 4px #ff8c00;
 }
 
 .flex-container-2 {
-    display: flex;
     flex-direction: column;
-    background-color: #13795b;
-    color: #ffffff;
-    width: 25%;
-
+    background-image: url('https://github.com/gwennr-t/Professional-Portfolio/assets/150493048/9559b701-7435-427d-b95f-154c1f9b267d');
+    background-position: center;
+    margin: 10px;
+    width: 20%;
+    border: solid 4px #ff8c00;
 }
 
 .flex-container:hover, .flex-container-2:hover {
@@ -59,29 +80,23 @@
 .flex-container a, .flex-container-2 a {
     color: black;
 }
-
-.card-image-top {
-    background-image: url('https://github.com/gwennr-t/Professional-Portfolio/assets/150493048/b58d6e95-0c51-42e2-b9e9-feaf07ac07c0');
-    background-position: center;
-}
-
-.card-image-top-2 {
-    background-image: url('https://github.com/gwennr-t/Professional-Portfolio/assets/150493048/9559b701-7435-427d-b95f-154c1f9b267d');
-    background-position: center;
-}
 /* end of work cards styling */
 
 /* contact me link styling */
-.flex-container-3 {
+#contact-me {
     display: flex;
-    flex-direction: column;
-    width: 25%;
+    margin: 10px;
+}
 
+.flex-container-3 {
+    margin: 10px;
+    width: 60%;
+    border: solid 4px #eaff00;
 }
 
 .flex-container-3 a {
-    padding: 10px 20px;
+    margin: 20px;
     color: #13795b;
-
+    border: solid 4px #00eeff;
 }
-/* end of contact me link styling */
+/* end of contact me link styling*/
