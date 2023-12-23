@@ -3,14 +3,17 @@
 }
 /* hero section styling */
 #hero-image {
-    background-image: url('/assets/images/hero-image.png') ;
+    background-image: url('https://github.com/gwennr-t/Professional-Portfolio/assets/150493048/c9030452-ca92-433c-80e2-9c97091bfd27') ;
     background-position: center;
+    padding: 100px 10px 5px 0px;
 }
 
 #hero-title {
     display: flex;
-    justify-content: right;
-    color: #084432;
+    justify-content: center;
+    margin-left: 60%;
+    background-color: #084432;
+    color: #ffffff;
 }
 
 /* all section titles styling */
@@ -55,6 +58,16 @@
 
 .flex-container a, .flex-container-2 a {
     color: black;
+}
+
+.card-image-top {
+    background-image: url('https://github.com/gwennr-t/Professional-Portfolio/assets/150493048/b58d6e95-0c51-42e2-b9e9-feaf07ac07c0');
+    background-position: center;
+}
+
+.card-image-top-2 {
+    background-image: url('https://github.com/gwennr-t/Professional-Portfolio/assets/150493048/9559b701-7435-427d-b95f-154c1f9b267d');
+    background-position: center;
 }
 /* end of work cards styling */
 
