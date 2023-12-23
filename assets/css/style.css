@@ -1,31 +1,67 @@
 * {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-
+/* hero title styling */
 #hero-title {
     display: flex;
     justify-content: right;
-    color: #13795b;
+    color: #084432;
 }
 
+/* all section titles styling */
 .section-title {
-    color: #13795b;;
+    width: 40%;
+    color: #084432;
 }
 
-/* .about-me-image {
-
-}
-
+/* about me text styling */
 .about-me-text {
-
-} */
-
-.flex-conatiner {
     display: flex;
     flex-direction: column;
+    color: black;
+    width: 60%;
+    
+}
+/* end of about me text styling */
+
+/* work cards styling */
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
 
 }
-/* 
-.flex-conatiner:hover {
 
-} */
+.flex-container-2 {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+
+}
+
+.flex-container:hover {
+    box-shadow: 0px 5px 10px 0px #0000008a;
+} 
+
+.flex-container-2:hover {
+    box-shadow: 0px 5px 10px 0px #0000008a;
+} 
+
+.card-title {
+    color: #13795b
+}
+/* end of work cards styling */
+
+/* contact me link styling */
+.flex-container-3 {
+    display: flex;
+    flex-direction: row;
+    width: 25%;
+
+}
+
+.flex-container-3 a {
+    color: #13795b;
+
+}
+/* end of contact me link styling */
