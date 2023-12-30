@@ -6,97 +6,110 @@
 #hero-image {
     background-image: url('https://github.com/gwennr-t/Professional-Portfolio/assets/150493048/c9030452-ca92-433c-80e2-9c97091bfd27') ;
     background-position: center;
-    padding: 100px 10px 5px 0px;
+    padding: 100px 10px 5px 5px;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #hero-title {
     display: flex;
     justify-content: center;
-    margin-left: 60%;
-    background-color: #084432;
+    font-size: 250%;
     color: #ffffff;
 }
 /* end of hero section syling */
 
 /* all section titles styling */
+.section {
+    display: flex;
+    /* border: solid 10px#ffd500;*/
+}
+
 .section-title {
     display: flex;
-    justify-content: center;
-    margin: 10px;
-    width: 40%;
-    color: #084432;
-    border: solid 4px #ff0000;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    padding: 1%;
+    width: 25%;
+    background-color: #084432;
+    color: #ffffff;
 }
 
 /* about me section styling */
-#about-me {
-    display: flex;
-    margin: 10px;
-}
 
-.about-me-image {
-    margin: 10px;
-    width: 20%;
-    border: solid 4px #ff0000;
-}
+/* #about-me-image{
+    display: flex;
+    flex-wrap: wrap;
+    background-image: url('https://github.com/gwennr-t/Professional-Portfolio/assets/150493048/c9030452-ca92-433c-80e2-9c97091bfd27') ;
+    background-position: center;
+} */
 
 .about-me-text {
-    margin: 10px;
+    display: flex;
+    padding: 1%;
     width: 40%;
+    font-size: 100%;
     color: black;
-    border: solid 4px #ff0000;
+    line-height: 2;
 }
 /* end of about me section styling */
 
 /* work cards styling */
 #work {
     display: flex;
-    margin: 10px;
-    color: #ffffff;
+    flex-wrap: wrap;
+    font-size: 150%;
+    color: #000000;
 }
 
 .flex-container {
+    justify-content: center;
+    flex-direction: center;
+    flex-wrap: wrap;
     flex-direction: column;
+    width: 65%;
+    margin: 1%;
+}
+
+#card-1 {
     background-image: url('https://github.com/gwennr-t/Professional-Portfolio/assets/150493048/b58d6e95-0c51-42e2-b9e9-feaf07ac07c0');
     background-position: center;
-    margin: 10px;
-    width: 20%;
-    border: solid 4px #ff8c00;
+    margin-bottom: 5%;
+    padding: 0px 10px 100px 0px;
 }
 
-.flex-container-2 {
-    flex-direction: column;
+#card-2 {
     background-image: url('https://github.com/gwennr-t/Professional-Portfolio/assets/150493048/9559b701-7435-427d-b95f-154c1f9b267d');
     background-position: center;
-    margin: 10px;
-    width: 20%;
-    border: solid 4px #ff8c00;
+    margin-bottom: 2%;
+    padding: 0px 10px 50px 0px;
 }
 
-.flex-container:hover, .flex-container-2:hover {
+#card-1:hover, #card-2:hover {
     box-shadow: 0px 5px 10px 0px #0000008a;
 } 
 
-.flex-container a, .flex-container-2 a {
-    color: black;
+.flex-container a {
+    color: #ffffff;
+    background-color: #084432;
+    width: 75%;
 }
 /* end of work cards styling */
 
-/* contact me link styling */
-#contact-me {
-    display: flex;
-    margin: 10px;
-}
-
+/* contact me section styling */
 .flex-container-3 {
-    margin: 10px;
-    width: 60%;
-    border: solid 4px #eaff00;
+    width: 50%;
 }
 
 .flex-container-3 a {
-    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    font-size: 150%;
     color: #13795b;
-    border: solid 4px #00eeff;
 }
-/* end of contact me link styling*/
+/* end of contact me section styling*/
