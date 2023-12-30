@@ -1,9 +1,10 @@
 # Professional-Portfolio
 
-<p>Welcome to my professional portfolio! In my portfolio you will find various proojects completed during my time in a coding bootcamp.</p>
+<p>Welcome to my professional portfolio! In my portfolio you will find various proojects completed during my time in a coding bootcamp, my resume, and how to best contact me.</p>
 
 <p>This repository contains HTML, CSS, and images. Bootstrap is also utilized.</p>
 
 <h1>URL</h1>
+<p>https://gwennr-t.github.io/Professional-Portfolio/</p>
 
 <h1>Screenshot</h1>
