@@ -40,18 +40,10 @@ img {
 }
 
 /* about me section styling */
-
-/* #about-me-image{
-    display: flex;
-    flex-wrap: wrap;
-    background-image: url('https://github.com/gwennr-t/Professional-Portfolio/assets/150493048/c9030452-ca92-433c-80e2-9c97091bfd27') ;
-    background-position: center;
-} */
-
 .about-me-text {
     display: flex;
     padding: 1%;
-    width: 40%;
+    width: 65%;
     font-size: 100%;
     color: black;
     line-height: 2;
@@ -109,7 +101,7 @@ img {
     display: flex;
     flex-direction: column;
     margin: 10px;
-    font-size: 150%;
+    font-size: 125%;
     color: #13795b;
 }
 /* end of contact me section styling*/
